@@ -1,5 +1,5 @@
-# dedup_redup
-Deduplication / Reduplication of file
+# Deduplication / Reduplication
+Deduplication / Reduplication of file in Java.
 
 # General
 Data deduplication refers to a technique for eliminating redundant data in a data set. In the process of deduplication, extra copies of the same data are deleted, leaving only one copy to be stored. Data is analyzed to identify duplicate byte patterns to ensure the single instance is indeed the single file. Then, duplicates are replaced with a reference that points to the stored chunk.
